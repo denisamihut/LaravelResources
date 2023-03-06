@@ -65,3 +65,42 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # LaravelExample2
+
+
+# Laravel Template Example for 2023 versions of Laravel & PHP: 06.03.2023
+
+# Crating new project
+- composer global require laravel/installer
+- laravel new name
+
+# Cloning new project
+- git clone <my-cool-project>
+
+# Development
+
+## Project commands
+
+- composer install
+- cp .env.example .env
+- create db in phpMyAdmin and replace DB_DATABASE in .env file
+- php artisan key:generate
+- php artisan migrate
+- php artisan serve
+- access website at localhost:8000
+
+- php artisan serve
+- php artisan make:migration create_name_table
+- php artisan migrate
+- php artisan migrate:rollback
+
+- composer require laravel/breeze
+
+## Versions
+
+- PHP 8.1.10
+- Laravel 9
+- blade languange
+
+
+Youtube tutorial part 2: https://www.youtube.com/watch?v=2bz5eleBj98
+
