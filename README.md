@@ -97,6 +97,8 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ### Installing Breeze
 - composer require laravel/breeze
+- php artisan breeze:install
+- npm install && npm run dev
 
 php artisan make:model Category -m
 
