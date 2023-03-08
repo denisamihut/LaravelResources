@@ -80,6 +80,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Project commands
 
+### Installing Composer
 - composer install
 - cp .env.example .env
 - create db in phpMyAdmin and replace DB_DATABASE in .env file
@@ -88,12 +89,17 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 - php artisan serve
 - access website at localhost:8000
 
+### DB Migrations
 - php artisan serve
 - php artisan make:migration create_name_table
 - php artisan migrate
 - php artisan migrate:rollback
 
+### Installing Breeze
 - composer require laravel/breeze
+
+php artisan make:model Category -m
+
 
 ## Versions
 
