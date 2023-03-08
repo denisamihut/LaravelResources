@@ -104,7 +104,9 @@ php artisan make:model Category -m
 
 ### DB Seeding
 - php artisan db:seed
-- php artisan make:seeder AdminSeeder      
+- php artisan make:seeder AdminSeeder   
+- php artisan make:migration add_is_admin_to_users_table
+
 
 ## Versions
 
