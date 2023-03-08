@@ -104,6 +104,7 @@ php artisan make:model Category -m
 
 ### DB Seeding
 - php artisan db:seed
+- php artisan make:seeder AdminSeeder      
 
 ## Versions
 
